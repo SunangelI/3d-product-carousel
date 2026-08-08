@@ -4,7 +4,7 @@
  * Plugin URI:  https://web-squad.com
  * Description: An interactive 3D ring showcase for a handful of products. Drag, swipe or use the arrow keys. Configure via the Customizer, place with the [carousel_3d] shortcode.
  * Version:     2.3.0
- * Author:      SunAngel_I
+ * Author:      Web Squad
  * Author URI:  https://web-squad.com
  * License:     GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html

@@ -1,5 +1,5 @@
 === 3D Product Carousel ===
-Contributors: SunAngel_I
+Contributors: sunangeli
 Tags: carousel, 3d, gallery, showcase, shortcode
 Requires at least: 6.2
 Tested up to: 7.0
