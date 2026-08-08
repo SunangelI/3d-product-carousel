@@ -1,0 +1,546 @@
+# Copyright (C) 2026 SunAngel_I
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: 3D Product Carousel 2.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/3d-product-carousel\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-08T12:47:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: 3d-product-carousel\n"
+
+#. Plugin Name of the plugin
+#: 3d-product-carousel.php
+#: includes/block.php:164
+#: includes/class-carousel3d-elementor-widget.php:35
+#: includes/customizer.php:120
+#: assets/js/block.js:305
+#: assets/js/block.js:314
+msgid "3D Product Carousel"
+msgstr "3D-карусель товарів"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: 3d-product-carousel.php
+msgid "https://web-squad.com"
+msgstr ""
+
+#. Description of the plugin
+#: 3d-product-carousel.php
+msgid "An interactive 3D ring showcase for a handful of products. Drag, swipe or use the arrow keys. Configure via the Customizer, place with the [carousel_3d] shortcode."
+msgstr "Інтерактивна 3D-вітрина для кількох товарів. Гортайте перетягуванням, свайпом або стрілками. Налаштування — у Кастомайзері, вставка — шорткодом [carousel_3d]."
+
+#. Author of the plugin
+#: 3d-product-carousel.php
+msgid "SunAngel_I"
+msgstr ""
+
+#: 3d-product-carousel.php:43
+msgid "Default (225:260)"
+msgstr "За замовчуванням (225:260)"
+
+#: 3d-product-carousel.php:44
+msgid "Square (1:1)"
+msgstr "Квадрат (1:1)"
+
+#: 3d-product-carousel.php:45
+msgid "Portrait (4:5)"
+msgstr "Портрет (4:5)"
+
+#: 3d-product-carousel.php:46
+msgid "Tall (9:16)"
+msgstr "Високий (9:16)"
+
+#: 3d-product-carousel.php:47
+msgid "Landscape (4:3)"
+msgstr "Альбомний (4:3)"
+
+#: 3d-product-carousel.php:48
+msgid "Wide (16:9)"
+msgstr "Широкий (16:9)"
+
+#: 3d-product-carousel.php:59
+msgid "Real Food, Real Results"
+msgstr "Справжня їжа, справжній результат"
+
+#: 3d-product-carousel.php:60
+msgid "Taste the Difference"
+msgstr "Відчуйте різницю"
+
+#: 3d-product-carousel.php:61
+msgid "Drag to explore"
+msgstr "Потягніть, щоб роздивитися"
+
+#: 3d-product-carousel.php:246
+msgid "View product"
+msgstr "Переглянути товар"
+
+#: 3d-product-carousel.php:247
+msgid "Close"
+msgstr "Закрити"
+
+#: 3d-product-carousel.php:501
+msgid "3D carousel"
+msgstr "3D-карусель"
+
+#: 3d-product-carousel.php:502
+msgid "Product carousel"
+msgstr "Карусель товарів"
+
+#: 3d-product-carousel.php:757
+msgid "Demo image — replace in the Customizer"
+msgstr "Демонстраційне зображення — замініть у Кастомайзері"
+
+#. translators: %d: sequence number of the bundled demo image.
+#: 3d-product-carousel.php:759
+#, php-format
+msgid "Demo %d"
+msgstr "Демо %d"
+
+#: includes/block.php:165
+msgid "An interactive 3D ring showcase for a handful of products."
+msgstr "Інтерактивна 3D-вітрина у вигляді кільця для кількох товарів."
+
+#: includes/class-carousel3d-elementor-widget.php:153
+#: includes/customizer.php:455
+#: assets/js/block.js:203
+msgid "Cards"
+msgstr "Картки"
+
+#: includes/class-carousel3d-elementor-widget.php:174
+msgid "Image"
+msgstr "Зображення"
+
+#: includes/class-carousel3d-elementor-widget.php:182
+#: assets/js/block.js:125
+msgid "Caption"
+msgstr "Підпис"
+
+#: includes/class-carousel3d-elementor-widget.php:190
+msgid "Links to"
+msgstr "Посилання на"
+
+#: includes/class-carousel3d-elementor-widget.php:200
+msgid "Alt text"
+msgstr "Альтернативний текст"
+
+#: includes/class-carousel3d-elementor-widget.php:203
+msgid "Describes the image to a screen reader. Leave empty to use the one set in the media library."
+msgstr "Опис зображення для читача екрана. Порожнє — візьметься той, що заданий у медіабібліотеці."
+
+#: includes/class-carousel3d-elementor-widget.php:213
+msgid "Card"
+msgstr "Картка"
+
+#: includes/class-carousel3d-elementor-widget.php:214
+msgid "Leave this empty to use the images set for the whole site, under Appearance → Customize → 3D Product Carousel."
+msgstr "Залиште порожнім, щоб показувати зображення, задані на весь сайт: Вигляд → Кастомайзер → 3D-карусель товарів."
+
+#: includes/class-carousel3d-elementor-widget.php:229
+#: includes/class-carousel3d-elementor-widget.php:244
+msgid "Heading"
+msgstr "Заголовок"
+
+#: includes/class-carousel3d-elementor-widget.php:235
+msgid "Small line above"
+msgstr "Рядок над заголовком"
+
+#: includes/class-carousel3d-elementor-widget.php:253
+#: includes/customizer.php:160
+#: assets/js/block.js:237
+msgid "Interaction hint"
+msgstr "Підказка для взаємодії"
+
+#: includes/class-carousel3d-elementor-widget.php:256
+msgid "Shown under the carousel. Leave empty to hide it."
+msgstr "Показується під каруселлю. Залиште порожнім, щоб прибрати."
+
+#: includes/class-carousel3d-elementor-widget.php:271
+#: includes/customizer.php:189
+#: assets/js/block.js:246
+msgid "Layout & motion"
+msgstr "Розташування та рух"
+
+#: includes/class-carousel3d-elementor-widget.php:278
+msgid "These start at your site-wide settings, under Appearance → Customize → 3D Product Carousel."
+msgstr "Початкові значення беруться з налаштувань сайту: Вигляд → Кастомайзер → 3D-карусель товарів."
+
+#: includes/class-carousel3d-elementor-widget.php:286
+msgid "Card shape"
+msgstr "Форма картки"
+
+#: includes/class-carousel3d-elementor-widget.php:296
+msgid "Tilt"
+msgstr "Нахил"
+
+#: includes/class-carousel3d-elementor-widget.php:312
+msgid "Lean"
+msgstr "Крен"
+
+#: includes/class-carousel3d-elementor-widget.php:328
+msgid "Spacing"
+msgstr "Проміжки"
+
+#: includes/class-carousel3d-elementor-widget.php:338
+msgid "A multiplier. 1 packs the cards edge to edge; higher values open a gap."
+msgstr "Множник. 1 ставить картки впритул; більші значення розсувають їх."
+
+#: includes/class-carousel3d-elementor-widget.php:345
+msgid "Idle sway"
+msgstr "Розхитування в спокої"
+
+#: includes/class-carousel3d-elementor-widget.php:355
+msgid "Degrees. 0 holds the ring still."
+msgstr "Градуси. 0 — кільце стоїть нерухомо."
+
+#: includes/class-carousel3d-elementor-widget.php:362
+msgid "Shadow"
+msgstr "Тінь"
+
+#: includes/class-carousel3d-elementor-widget.php:381
+msgid "Rotate on its own"
+msgstr "Обертати саму"
+
+#: includes/class-carousel3d-elementor-widget.php:391
+msgid "Rotation speed"
+msgstr "Швидкість обертання"
+
+#: includes/class-carousel3d-elementor-widget.php:408
+msgid "Settle on a card"
+msgstr "Зупинятися на картці"
+
+#: includes/class-carousel3d-elementor-widget.php:418
+msgid "Hide the far side"
+msgstr "Ховати дальній бік"
+
+#: includes/class-carousel3d-elementor-widget.php:428
+msgid "Floating objects"
+msgstr "Об’єкти, що ширяють"
+
+#: includes/class-carousel3d-elementor-widget.php:432
+msgid "Drops the card frames, so cut-out product photos appear to float."
+msgstr "Прибирає рамки карток, щоб вирізані фото товарів ніби ширяли в повітрі."
+
+#: includes/class-carousel3d-elementor-widget.php:595
+msgid "Nothing to show yet — pick some images, or set them for the whole site in the Customizer."
+msgstr "Поки нічого показувати — оберіть зображення або задайте їх на весь сайт у Кастомайзері."
+
+#: includes/customizer.php:121
+msgid "Place the carousel with the [carousel_3d] shortcode."
+msgstr "Вставте карусель шорткодом [carousel_3d]."
+
+#: includes/customizer.php:130
+#: assets/js/block.js:215
+msgid "Content"
+msgstr "Вміст"
+
+#: includes/customizer.php:140
+msgid "Section title"
+msgstr "Заголовок секції"
+
+#: includes/customizer.php:150
+msgid "Section subtitle"
+msgstr "Підзаголовок секції"
+
+#: includes/customizer.php:161
+msgid "Shown under the carousel. Leave empty to hide."
+msgstr "Показується під каруселлю. Залиште порожнім, щоб приховати."
+
+#: includes/customizer.php:173
+msgid "Number of card slots"
+msgstr "Кількість слотів для карток"
+
+#: includes/customizer.php:174
+msgid "Slots without an image are skipped, so you can show as few as two products."
+msgstr "Слоти без зображення пропускаються, тож можна показати навіть два товари."
+
+#: includes/customizer.php:201
+#: assets/js/block.js:248
+msgid "Photo aspect ratio"
+msgstr "Співвідношення сторін фото"
+
+#: includes/customizer.php:215
+#: assets/js/block.js:255
+msgid "Ring tilt (°)"
+msgstr "Нахил кільця (°)"
+
+#: includes/customizer.php:216
+msgid "Negative looks down on the ring, positive looks up."
+msgstr "Від'ємне значення — погляд згори, додатне — знизу."
+
+#: includes/customizer.php:234
+msgid "Ring lean (°)"
+msgstr "Нахил кільця вбік (°)"
+
+#: includes/customizer.php:252
+#: assets/js/block.js:269
+msgid "Spacing between cards (%)"
+msgstr "Відстань між картками (%)"
+
+#: includes/customizer.php:253
+msgid "100 = cards touch edge to edge. Higher pushes them apart."
+msgstr "100 = картки торкаються краями. Більше — розсуває їх."
+
+#: includes/customizer.php:271
+#: assets/js/block.js:262
+msgid "Idle sway (°)"
+msgstr "Легке гойдання (°)"
+
+#: includes/customizer.php:272
+msgid "A gentle breathing motion. 0 turns it off — recommended above 2."
+msgstr "Плавний рух «дихання». 0 вимикає. Понад 2 не рекомендується."
+
+#: includes/customizer.php:290
+msgid "Auto-rotation speed"
+msgstr "Швидкість автообертання"
+
+#: includes/customizer.php:291
+msgid "Degrees per frame ×100. 12 ≈ one turn per 50 seconds."
+msgstr "Градусів на кадр ×100. 12 ≈ один оберт за 50 секунд."
+
+#: includes/customizer.php:309
+#: assets/js/block.js:282
+msgid "Rotate automatically"
+msgstr "Обертати автоматично"
+
+#: includes/customizer.php:310
+msgid "Always disabled for visitors who ask for reduced motion."
+msgstr "Завжди вимкнено для відвідувачів, які просять зменшити анімацію."
+
+#: includes/customizer.php:323
+#: assets/js/block.js:285
+msgid "Snap to the nearest card"
+msgstr "Притягувати до найближчої картки"
+
+#: includes/customizer.php:336
+#: assets/js/block.js:287
+msgid "Fill the ring with repeats"
+msgstr "Заповнювати кільце повторами"
+
+#: includes/customizer.php:337
+msgid "With fewer than five cards the ring is padded by repeating them, so it does not look half empty. Turn off to show each product exactly once."
+msgstr "Якщо карток менше п'яти, кільце доповнюється їхніми копіями, щоб не виглядало напівпорожнім. Вимкніть, щоб показувати кожен товар рівно один раз."
+
+#: includes/customizer.php:350
+#: assets/js/block.js:290
+msgid "Hide cards on the far side"
+msgstr "Приховувати картки на дальньому боці"
+
+#: includes/customizer.php:351
+msgid "Off: the back cards stay visible, dimmed and blurred. On: they disappear entirely."
+msgstr "Вимкнено: задні картки видно, але приглушено й розмито. Увімкнено: вони зникають зовсім."
+
+#: includes/customizer.php:364
+#: assets/js/block.js:292
+msgid "Floating objects mode"
+msgstr "Режим об'єктів у польоті"
+
+#: includes/customizer.php:365
+msgid "Drops the card frame and fits the whole image. For cut-out PNGs."
+msgstr "Прибирає рамку картки й вписує зображення повністю. Для PNG з вирізаним фоном."
+
+#: includes/customizer.php:378
+#: assets/js/block.js:276
+msgid "Shadow strength (%)"
+msgstr "Інтенсивність тіні (%)"
+
+#: includes/customizer.php:379
+msgid "Applies to both the card shadow and the contact shadow on the ground."
+msgstr "Впливає і на тінь картки, і на тінь під нею."
+
+#: includes/customizer.php:394
+msgid "Colours"
+msgstr "Кольори"
+
+#: includes/customizer.php:400
+msgid "Background — top"
+msgstr "Фон — угорі"
+
+#: includes/customizer.php:401
+msgid "Background — middle"
+msgstr "Фон — посередині"
+
+#: includes/customizer.php:402
+msgid "Background — bottom"
+msgstr "Фон — унизу"
+
+#: includes/customizer.php:403
+msgid "Card background"
+msgstr "Фон картки"
+
+#: includes/customizer.php:404
+msgid "Card border"
+msgstr "Рамка картки"
+
+#: includes/customizer.php:405
+msgid "Accent"
+msgstr "Акцент"
+
+#: includes/customizer.php:406
+#: assets/js/block.js:225
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/customizer.php:407
+msgid "Label text"
+msgstr "Текст підпису"
+
+#: includes/customizer.php:408
+msgid "Top blob"
+msgstr "Верхня пляма"
+
+#: includes/customizer.php:409
+msgid "Bottom blob"
+msgstr "Нижня пляма"
+
+#: includes/customizer.php:427
+msgid "Card border opacity (%)"
+msgstr "Прозорість рамки картки (%)"
+
+#: includes/customizer.php:428
+msgid "Top blob opacity (%)"
+msgstr "Прозорість верхньої плями (%)"
+
+#: includes/customizer.php:429
+msgid "Bottom blob opacity (%)"
+msgstr "Прозорість нижньої плями (%)"
+
+#: includes/customizer.php:456
+msgid "Leave the image empty to skip a slot entirely."
+msgstr "Залиште зображення порожнім, щоб пропустити слот."
+
+#. translators: %d: card number.
+#: includes/customizer.php:471
+#, php-format
+msgid "Card %d — image or video"
+msgstr "Картка %d — зображення або відео"
+
+#. translators: %d: card number.
+#: includes/customizer.php:482
+#, php-format
+msgid "Card %d — caption"
+msgstr "Картка %d — підпис"
+
+#. translators: %d: card number.
+#: includes/customizer.php:495
+#, php-format
+msgid "Card %d — link"
+msgstr "Картка %d — посилання"
+
+#. translators: %d: card number.
+#: includes/customizer.php:507
+#, php-format
+msgid "Card %d — alt text"
+msgstr "Картка %d — альтернативний текст"
+
+#: includes/customizer.php:508
+msgid "Falls back to the caption when empty."
+msgstr "Якщо порожньо, береться підпис."
+
+#: includes/elementor.php:48
+msgid "3D Carousel"
+msgstr "3D-карусель"
+
+#: assets/js/block.js:70
+#: assets/js/block.js:190
+msgid "Use Customizer setting"
+msgstr "Налаштування Кастомайзера"
+
+#: assets/js/block.js:71
+msgid "On"
+msgstr "Увімкнено"
+
+#: assets/js/block.js:72
+msgid "Off"
+msgstr "Вимкнено"
+
+#: assets/js/block.js:97
+msgid "Untitled"
+msgstr "Без назви"
+
+#: assets/js/block.js:99
+msgid "Move up"
+msgstr "Вгору"
+
+#: assets/js/block.js:108
+msgid "Move down"
+msgstr "Вниз"
+
+#: assets/js/block.js:117
+msgid "Remove"
+msgstr "Прибрати"
+
+#: assets/js/block.js:135
+msgid "Link"
+msgstr "Посилання"
+
+#: assets/js/block.js:173
+msgid "Change images"
+msgstr "Змінити зображення"
+
+#: assets/js/block.js:174
+msgid "Choose images for this carousel"
+msgstr "Оберіть зображення для цієї каруселі"
+
+#: assets/js/block.js:183
+msgid "Clear and use the site-wide cards"
+msgstr "Очистити й показувати загальносайтові картки"
+
+#: assets/js/block.js:185
+msgid "Empty: this block shows the cards set in the Customizer."
+msgstr "Порожньо: цей блок показує картки, задані в Кастомайзері."
+
+#: assets/js/block.js:205
+msgid "Cards in this carousel"
+msgstr "Картки цієї каруселі"
+
+#: assets/js/block.js:206
+msgid "Choose images here to show different products on this page. Leave it empty and the site-wide cards are used."
+msgstr "Оберіть зображення тут, щоб на цій сторінці були інші товари. Порожнє — беруться загальносайтові картки."
+
+#: assets/js/block.js:211
+msgid "Edit the site-wide cards in the Customizer"
+msgstr "Редагувати загальносайтові картки в Кастомайзері"
+
+#: assets/js/block.js:217
+msgid "Override the heading here"
+msgstr "Перевизначити заголовок тут"
+
+#: assets/js/block.js:218
+msgid "Off: this block uses the site-wide title and subtitle."
+msgstr "Вимкнено: блок бере загальний заголовок і підзаголовок сайту."
+
+#: assets/js/block.js:231
+msgid "Subtitle"
+msgstr "Підзаголовок"
+
+#: assets/js/block.js:238
+msgid "Leave empty to hide it."
+msgstr "Залиште порожнім, щоб приховати."
+
+#: assets/js/block.js:284
+msgid "Always off for visitors who ask for reduced motion."
+msgstr "Завжди вимкнено для відвідувачів, які просять зменшити анімацію."
+
+#: assets/js/block.js:289
+msgid "Applies when there are fewer than five cards."
+msgstr "Діє, коли карток менше п'яти."
+
+#: assets/js/block.js:294
+msgid "Drops the card frame. For cut-out PNGs."
+msgstr "Прибирає рамку картки. Для PNG з вирізаним фоном."
+
+#: assets/js/block.js:306
+msgid "No cards yet. Add at least one product image in the Customizer."
+msgstr "Ще немає карток. Додайте хоча б одне зображення товару в Кастомайзері."
+
+#: assets/js/block.js:308
+msgid "Open the Customizer"
+msgstr "Відкрити Кастомайзер"
