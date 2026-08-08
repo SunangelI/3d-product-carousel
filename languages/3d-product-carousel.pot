@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-08T15:05:29+00:00\n"
+"POT-Creation-Date: 2026-08-08T15:45:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: 3d-product-carousel\n"
@@ -24,12 +24,6 @@ msgstr ""
 msgid "3D Product Carousel"
 msgstr ""
 
-#. Plugin URI of the plugin
-#. Author URI of the plugin
-#: 3d-product-carousel.php
-msgid "https://web-squad.com"
-msgstr ""
-
 #. Description of the plugin
 #: 3d-product-carousel.php
 msgid "An interactive 3D ring showcase for a handful of products. Drag, swipe or use the arrow keys. Configure via the Customizer, place with the [carousel_3d] shortcode."
@@ -40,64 +34,69 @@ msgstr ""
 msgid "Web Squad"
 msgstr ""
 
-#: 3d-product-carousel.php:43
+#. Author URI of the plugin
+#: 3d-product-carousel.php
+msgid "https://web-squad.com"
+msgstr ""
+
+#: 3d-product-carousel.php:42
 msgid "Default (225:260)"
 msgstr ""
 
-#: 3d-product-carousel.php:44
+#: 3d-product-carousel.php:43
 msgid "Square (1:1)"
 msgstr ""
 
-#: 3d-product-carousel.php:45
+#: 3d-product-carousel.php:44
 msgid "Portrait (4:5)"
 msgstr ""
 
-#: 3d-product-carousel.php:46
+#: 3d-product-carousel.php:45
 msgid "Tall (9:16)"
 msgstr ""
 
-#: 3d-product-carousel.php:47
+#: 3d-product-carousel.php:46
 msgid "Landscape (4:3)"
 msgstr ""
 
-#: 3d-product-carousel.php:48
+#: 3d-product-carousel.php:47
 msgid "Wide (16:9)"
 msgstr ""
 
-#: 3d-product-carousel.php:59
+#: 3d-product-carousel.php:58
 msgid "Real Food, Real Results"
 msgstr ""
 
-#: 3d-product-carousel.php:60
+#: 3d-product-carousel.php:59
 msgid "Taste the Difference"
 msgstr ""
 
-#: 3d-product-carousel.php:61
+#: 3d-product-carousel.php:60
 msgid "Drag to explore"
 msgstr ""
 
-#: 3d-product-carousel.php:246
+#: 3d-product-carousel.php:245
 msgid "View product"
 msgstr ""
 
-#: 3d-product-carousel.php:247
+#: 3d-product-carousel.php:246
 msgid "Close"
 msgstr ""
 
-#: 3d-product-carousel.php:501
+#: 3d-product-carousel.php:500
 msgid "3D carousel"
 msgstr ""
 
-#: 3d-product-carousel.php:502
+#: 3d-product-carousel.php:501
 msgid "Product carousel"
 msgstr ""
 
-#: 3d-product-carousel.php:757
+#: 3d-product-carousel.php:756
 msgid "Demo image — replace in the Customizer"
 msgstr ""
 
 #. translators: %d: sequence number of the bundled demo image.
-#: 3d-product-carousel.php:759
+#: 3d-product-carousel.php:758
 #, php-format
 msgid "Demo %d"
 msgstr ""

@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: 3D Product Carousel
- * Plugin URI:  https://web-squad.com
  * Description: An interactive 3D ring showcase for a handful of products. Drag, swipe or use the arrow keys. Configure via the Customizer, place with the [carousel_3d] shortcode.
  * Version:     2.3.0
  * Author:      Web Squad

@@ -130,10 +130,9 @@ a few seconds after someone interacts with it.
 == Upgrade Notice ==
 
 = 2.3.0 =
-The plugin folder and text domain are now 3d-product-carousel, to match its
-address in the plugin directory. If you installed an earlier version by hand,
-WordPress will see this as a different plugin: delete the old carousel-3d folder
-and activate this one. Your settings, pages and carousels are untouched.
+The plugin folder and text domain are now 3d-product-carousel. If you installed
+an earlier version by hand, WordPress sees this as a different plugin: delete
+the old carousel-3d folder. Settings and carousels are untouched.
 
 = 2.2.0 =
 Adds an Elementor widget. Pages already built with the WooCommerce add-on's
